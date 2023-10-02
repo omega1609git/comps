@@ -5,6 +5,8 @@ import AccordionPage from './pages/AccordionPage';
 import DropdownPage from './pages/DropdownPage';
 import SideBar from './components/SideBar';
 import ButtonPage from './pages/ButtonPage';
+import ModalPage from './pages/ModalPage';
+import TablePage from './pages/TablePage';
 
 
 function App () {
@@ -22,6 +24,12 @@ function App () {
                 </Route>
                 <Route path="/buttons" >
                     <ButtonPage />
+                </Route>
+                <Route path="/modal" >
+                    <ModalPage />
+                </Route>
+                <Route path="/table">
+                    <TablePage  />
                 </Route>
             </div>
         </div>
