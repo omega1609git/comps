@@ -23,7 +23,7 @@ function Table( {data , config, keyFn } ){
 
     return (
         <div>
-            {data.length}
+            {/* {data.length} */}
             <table  className="table-auto border-spacing-2 " >
                 <thead>
                     <tr className="border-b-2" >
